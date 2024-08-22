@@ -12,7 +12,7 @@ jobs:
       matrix:
         branch: [openwrt-23.05]
         arch:
-          - ramips_mt7621
+          - ramips-mt7621
         exclude:
           - branch: openwrt-21.02
             arch: arm_cortex-a7_vfpv4
